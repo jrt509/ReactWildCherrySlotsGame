@@ -1,0 +1,38 @@
+.app {
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.game-name-wrapper {
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+    font-weight: 500;
+    background-color: gold;
+    color:red;
+    text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+   
+}
+.image-wrapper {
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    padding-top: 10px;
+    
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.slot-wrapper {
+    width: 75vw;
+    height: 75vh;
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+   
+}
